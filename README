@@ -1,0 +1,43 @@
+
+Scope - An informational web application for incoming students, along with general information for everyone. It will only summarize information for ease of use, and will provide links when necessary.
+
+Users and pain points - Incoming HECM students tend to be very confused about dates, times, and more when entering HECM. This web application will provide easy access to information abot financial aid, scholarships, and professor office hours. 
+
+Definitions - 
+
+Prompt: An AI Prompt is any form of text, question, information, or coding that communicates to AI what response you're looking for.  
+
+The features and functionality -
+
+User will be able to post a question and receive a relevant AI-generated response
+User will be able to view previous questions and responses from a session
+When prompted, User can post in Spanish, Mandarin, or Korean, and receive responses in that language
+When necessary, an authorized user can change prompts based on new information
+User will be able to receive accurate information about:
+Professors
+Office Hours
+Previous Research
+Background
+Classes they are currently teaching/have taught
+History of HECM and Texas A&M
+Majors offered at HECM
+ETAM statistics
+Explanation and Links to:
+Math Learning Center
+Career Center
+Job Stats per Major
+Writing Center
+Financial Aid
+Links in reference to:
+Scholarships
+Grants
+FAFSA
+TASFA
+Student Organizations 
+Leadership
+A summary
+how to apply
+Textbook access
+If User asks a non-relevant question, the AI will reply 
+Web application should be able to be used on a laptop or a phone
+
