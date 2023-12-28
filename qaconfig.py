@@ -29,11 +29,6 @@ with client:
             }
         })
 
-    # print("view created project info:")
-    # print("\tname: {}".format(project["projectName"]))
-    # print("\tlanguage: {}".format(project["language"]))
-    # print("\tdescription: {}".format(project["description"]))
-
     project_name = "AskAnAggie"
     update_sources_poller = client.begin_update_sources(
         project_name=project_name,
@@ -42,7 +37,8 @@ with client:
                 "op": "add",
                 "value": {
                     "displayName": "Ask An Aggie",
-                    "sourceUri": "https://wikipedia.org/wiki/Isaac_Newton",
+                    # add a source here -- website with the information
+                    "sourceUri": " ",
                     "sourceKind": "url"
                 }
             }
@@ -50,16 +46,6 @@ with client:
     )
     update_sources_poller.result()
 
-    # # list sources
-    # print("list project sources")
-    # sources = client.list_sources(
-    #     project_name=project_name
-    # )
-    # for source in sources:
-    #     print("project: {}".format(source["displayName"]))
-    #     print("\tsource: {}".format(source["source"]))
-    #     print("\tsource Uri: {}".format(source["sourceUri"]))
-    #     print("\tsource kind: {}".format(source["sourceKind"]))
 
     client1 = QuestionAnsweringClient(endpoint, credential)
 
