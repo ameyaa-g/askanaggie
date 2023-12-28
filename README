@@ -1,7 +1,9 @@
 
-Scope - An informational web application for incoming students, along with general information for everyone. It will only summarize information for ease of use, and will provide links when necessary.
+Scope - An informational web application for incoming students, along with general information for everyone. It will only summarize information for ease of use 
+and will provide links when necessary.
 
-Users and pain points - Incoming HECM students tend to be very confused about dates, times, and more when entering HECM. This web application will provide easy access to information abot financial aid, scholarships, and professor office hours. 
+Users and pain points - Incoming HECM students tend to be very confusehttps://github.com/ameyaa-g/askanaggie/blob/QuestionAndAnswering/READMEd about dates, times, and more when entering HECM. This web application will provide easy access to information about financial aid, scholarships, professor office hours, 
+and any other information that might be necessary. 
 
 Definitions - 
 
@@ -34,10 +36,9 @@ Grants
 FAFSA
 TASFA
 Student Organizations 
-Leadership
-A summary
-how to apply
+- Leadership
+- A summary
+- how to apply
 Textbook access
-If User asks a non-relevant question, the AI will reply 
-Web application should be able to be used on a laptop or a phone
-
+If the User asks a non-relevant question, the AI will not reply with the answer. 
+The web application should be able to be used on a laptop or a phone
