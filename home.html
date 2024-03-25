@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script>
+        function makeid(){
+            document.getElementById("start").setAttribute("value","True");
+        }
+    </script>
+</head>
+<body>
+    {% if usess %}
+
+        <h1>{{usess}}</h1>
+    {% endif %}
+<a href = '/true'><button> Start </button></a>
+    <a href = '/false'><button> End </button></a>
+</body>
+</html>
