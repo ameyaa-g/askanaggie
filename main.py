@@ -1,7 +1,7 @@
 import getpass
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = 'Will add when TSPE gets money'
 
 from langchain import hub
 from langchain.text_splitter import RecursiveCharacterTextSplitter
